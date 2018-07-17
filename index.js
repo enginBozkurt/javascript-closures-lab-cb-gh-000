@@ -20,7 +20,7 @@ function bumpCounter() {
  const {addBump, getBumps} = bumpCounter();
 
  function createAnimal(animal) {
-   
+
    return (deadlyDevice)=> {
     return {animalType: animalType, deadlyDevice: deadlyDevice}
 }
