@@ -17,18 +17,12 @@ function bumpCounter() {
  }
 
 
- const {addBump, getBumps} = bumpCounter()
+ const {addBump, getBumps} = bumpCounter();
 
  function createAnimal(animal) {
-
-    function deadlyDevice(device) {
-      var obj = {};
-      obj.animalType = animal;
-      obj.deadlyDevice = device;
-      return obj;
-    }
-
-  return deadlyDevice;
+   
+   return (deadlyDevice)=> {
+    return {animalType: animalType, deadlyDevice: deadlyDevice}
 }
 
 sharkCreator = createAnimal('Shark')
