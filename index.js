@@ -1,6 +1,6 @@
 const app = "I don't do much."
 function bumpCounter() {
-  var counter = 0
+  var counter = 0;
 
   function addBump() {
     counter += 1;
@@ -14,6 +14,7 @@ function bumpCounter() {
     addBump, getBumps
   };
  }
+ 
 
  const {addBump, getBumps} = bumpCounter()
 
