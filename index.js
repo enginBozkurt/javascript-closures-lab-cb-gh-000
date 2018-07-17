@@ -10,7 +10,9 @@ function bumpCounter() {
     return counter;
   }
 
-  return {addBump, getBumps}
+  return {
+    addBump, getBumps
+  };
  }
 
  const {addBump, getBumps} = bumpCounter()
